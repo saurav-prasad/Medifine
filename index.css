@@ -1,0 +1,81 @@
+/* first section */
+section {
+    justify-content: flex-start;
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid; */
+    background-image: url(images/stethoscope.png
+);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* container */
+.container {
+    padding-top: 50px;
+    position: relative;
+    width: 39vw;
+    height: 17vw;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container h1 {
+    font-size: 2.5vw;
+}
+
+.container p {
+    color: rgb(169 169 170);
+    font-weight: lighter;
+    margin: 23px 0px;
+    font-size: 0.75vw;
+}
+
+.container h2 {
+    cursor: pointer;
+    font-size: 1vw;
+    color: white;
+    background-color: rgb(66 187 125);
+    border-radius: 36px;
+    padding: 0.9vw 2vw;
+}
+
+#topImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bottomImg {
+    position: absolute;
+    bottom: 5%;
+    right: 6%;
+}
+
+#mouseImg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 23px;
+}
+#greenImg{
+    position: absolute;
+    right: 0px;
+    width: 27% ;
+    bottom: 48px;
+}
+#yellowImg{
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 52px;
+    width: 21%;
+}
+#doctorImg{
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 28%;
+}

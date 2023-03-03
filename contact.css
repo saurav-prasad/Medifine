@@ -1,0 +1,50 @@
+.hero{
+    /* height: 100vh; */
+}
+section{
+    
+justify-content: center;}
+.form{
+    margin-top: 13vh;
+    width: 18%;
+    border-radius: 10px;
+    padding: 40px 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0px 0px 10px 3px rgb(169 169 170);
+
+}
+.form h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.95vw;
+    font-weight: 900;
+    padding-bottom: 22px;
+    font-family: math;
+}
+#submit{
+    width: 100%;
+    font-size: 1vw;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 9px 0px;
+    background-color: #42bb7d;
+}
+input,textarea{
+    width: 100%;
+    border-radius: 38px;
+    border: none;
+    padding: 11px 0px;
+    padding-left: 7px;
+}
+textarea{
+    border-radius: 12px;
+}
+label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
